@@ -1,0 +1,223 @@
+﻿<!doctype html>
+<html lang="he">
+<head>
+    <meta charset="utf-8" />
+    <title>כשות - דף הבית</title>
+    <meta name="description" content="דף הבית של אתר כשות" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="Orr,Tom,Valeria" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+    <!--Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Heebo:100,400,800&amp;subset=hebrew" rel="stylesheet">
+
+    <!--favicon-->
+    <link rel="shortcut icon" type="image/png" href="../pictures/KSHUTsmalllogo.png" />
+
+    <!-- CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="styles/myStyle.css" rel="stylesheet" />
+
+    <!-- Scripts -->
+
+    <script src="jScripts/jquery-1.12.0.min.js"></script>
+    <script src="jScripts/JavaScript.js" type="text/javascript">  </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+
+    <div class="top-img" id="home-img">
+        <div id="container">
+            <header>
+                <a href="homepage.html" class="logo-link">
+                    <img id="logo" src="pictures/KSHUTmidLogo.svg" height="30" alt="לוגו האתר - כשות, כל מה שקשור לבירה" />
+                </a>
+                <ul id="skip">
+                    <li><a onclick="animateToContent('tabs');" href="javascript:void(0);">דלג לתוכן המרכזי</a></li>
+                </ul>
+
+                <nav class="navbar">
+                    <ul class="nav navbar-nav">
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                ללמוד בירה
+                                <span class="caret"></span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li class="disabled"><a href="#" onclick="return false" tabindex="-1">ללמוד מרכיבים</a></li>
+                                <li class="disabled"><a href="#" onclick="return false" tabindex="-1">ללמוד סוגים</a></li>
+                                <li><a href="learnglass.html">ללמוד כוסות</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                להכין בירה
+                                <span class="caret"></span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li class="disabled"><a href="#" onclick="return false" tabindex="-1">להכין כלים</a></li>
+                                <li class="disabled"><a href="#" onclick="return false" tabindex="-1">להכין מתכונים</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                למצוא בירה
+                                <span class="caret"></span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="findbrewery.html">למצוא מבשלות</a></li>
+                                <li><a href="findforme.html">למצוא עבורי</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                לשפר בירה
+                                <span class="caret"></span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="nishnush.html">לשפר נשנוש</a></li>
+                                <li class="disabled"><a href="#" onclick="return false" tabindex="-1"> לשפר קוקטייל</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+
+            <div class="welcome-message">
+                <h1><span class="thin">אנחנו אוהבים בירה וצמאים למידע</span></h1><br />
+                <h1>לאיזה מידע אתם צמאים?</h1>
+                <a onclick="animateToContent('tabs');" href="javascript:void(0);" class="hp-arrow"><span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></a>
+            </div>
+
+        </div>
+
+        <nav class="tab-menu" id="tabs" tabindex="0">
+            <ul>
+                <li data="beer-learn" onclick="changeTab('beer-learn');">
+                    <img src="pictures/wheat.svg" height="50" alt="צַלְמִית של חיטה" />
+                    <a href="javascript:void(0);" tabindex="0">ללמוד בירה</a>
+                </li>
+                <li data="beer-make" onclick="changeTab('beer-make');">
+                    <img src="pictures/beerGlass.svg" height="50" alt="צַלְמִית של כוס בירה" />
+                    <a href="javascript:void(0);">להכין בירה</a>
+                </li>
+                <li data="beer-find" onclick="changeTab('beer-find');">
+                    <img src="pictures/search.svg" height="50" alt="צַלְמִית של זכוכית מגדלת" />
+                    <a href="javascript:void(0);">למצוא בירה</a>
+                </li>
+                <li data="beer-improve" onclick="changeTab('beer-improve');">
+                    <img src="pictures/nachos.svg" height="50" alt="צַלְמִית של חטיף תירס מקסיקני'" />
+                    <a href="javascript:void(0);">לשפר בירה</a>
+                </li>
+            </ul>
+        </nav>
+
+    </div>
+
+    <div class="tab-content">
+        <section id="beer-learn" class="single-tab show">
+            <p>
+                מה מסתתר מאחורי הדבר הנפלא הזה?<br />
+                <span class="thin">מה המרכיבים, איזו כוס מתאימה לאיזו בירה ואילו סוגי בירות בכלל קיימים?</span><br />
+                <a class="my-btn" id="btn-learn" href="learnglass.html">ללמוד כוסות</a> <a class="my-dis-btn" onclick="return false" href="#">ללמוד מרכיבים</a> <a class="my-dis-btn" onclick="return false" href="#">ללמוד סוגים</a>
+            </p>
+
+        </section>
+        <section id="beer-make" class="single-tab hide">
+            <p>
+                למה לקנות אם אפשר להכין?<br />
+                <span class="thin">איזה כלים בעצם צריך? וכן ריכוז מתכונים מובחרים להכנת בירה. </span><br />
+                <a class="my-dis-btn" onclick="return false" href="#">להכין מתכונים</a> <a class="my-dis-btn" onclick="return false" href="#">להכין כלים</a>
+            </p>
+        </section>
+        <section id="beer-find" class="single-tab hide">
+            <p>
+                איפה ניתן לחוות בירה בעשייה, ואיזו בירה הכי מתאימה לי?<br />
+                <span class="thin">איפה המבשלות שהכי כדאי לבקר בהן בארץ ובעולם, והתאמת בירה באופן אישי.</span><br />
+                <a class="my-btn" id="btn-find" href="findbrewery.html">למצוא מבשלות</a> <a class="my-btn" id="btn-find" href="findforme.html">למצוא עבורי</a>
+            </p>
+        </section>
+        <section id="beer-improve" class="single-tab hide">
+            <p>
+                איך להפוך את הדבר הכי טוב - לעוד יותר טוב?<br />
+                <span class="thin">איזה נשנוש ילך הכי טוב עם הבירה שלי, ואיזה קוקטיילים אפשר לעשות מבירה?</span><br />
+                <a class="my-dis-btn white" onclick="return false" href="#">לשפר קוקטייל</a> <a class="my-btn white" id="btn-improve" href="nishnush.html">לשפר נשנוש</a>
+            </p>
+        </section>
+    </div>
+    <div class="wrapper">
+        <p>
+            <b>סקרנים לדעת כיצד מכינים בירה? רוצים לדעת מה הטעם שמדבר אליכם?</b><br />
+            בדיוק בשבילכם הקמנו את “כשות” מדריך הבירות השלם, כאן באתר תוכלו להתרשם מתהליך הכנת הבירה, ללמוד את מקורותיה וכן לדעת מה ילך הכי טוב לצד הבירה הקרה שלכם, לחיים!
+        </p>
+    </div>
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="#" data-toggle="modal" data-target="#myModal">צור קשר</a></li>
+                <li><a href="sitemap.html">מפת אתר</a></li>
+                <li><a href="aboutus.html">אודות</a></li>
+            </ul>
+        </nav>
+
+        <p>
+            כְּשׁוּת ©  2017<br />
+            כל מה שקשור לבירה
+        </p>
+    </footer>
+
+    <a id="back-to-top" onclick="topFunction();" href="javascript:void(0);">
+        <i class="glyphicon glyphicon-menu-up" aria-hidden="true"></i>
+    </a>
+
+    <!--contact-popup-->
+    <div class="modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <a class="close" data-dismiss="modal">&times;</a>
+                    <h1 class="modal-title">צור קשר</h1>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        בא לכם להציע לנו הצעה שלא נוכל לסרב לה?<br />
+                        או אולי לספר לנו על משהו שחסר והייתם רוצים שנכתוב עליו?<br />
+                        או שסתם בא לכם לשאול שאלה ולספר לנו על הבירה האהובה עליכם?<br />
+                        בכל מקרה אנחנו פה כדי לשמוע!
+                    </p>
+                    <form class="myForm">
+                        <input type="hidden" id="myEmail" name="name" value="benzix2@gmail.com">
+
+
+                        <div class="col-md-6">
+                            <label for="userMsg">תוכן ההודעה<span class="required">*</span></label>
+                            <textarea name="field5" id="userMsg" class="field-long field-textarea" placeholder="שלום צוות כשות..."></textarea>
+                        </div>
+
+                        <div class="col-md-6">
+                            <label for="fname">שם מלא <span class="required">*</span></label>
+                            <input type="text" id="fname" name="field1" class="field-long" placeholder="שם מלא" />
+
+                            <label for="userEmail">אימייל <span class="required">*</span></label>
+                            <input type="text" id="userEmail" name="field3" class="field-long" placeholder="אימייל" />
+
+                            <label for="userCompany">בירה אהובה</label>
+                            <input type="text" id="userCompany" name="field4" class="field-select" placeholder="בירה אהובה">
+                        </div>
+
+                        <div class="col-md-12">
+                            <input type="submit" value="שלח" />
+                        </div>
+
+                        <div id="feedback"></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+</html>

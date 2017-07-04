@@ -1,0 +1,522 @@
+﻿<!doctype html>
+<html lang="he">
+<head>
+    <meta charset="utf-8" />
+    <title>כשות - למצוא מבשלות</title>
+    <meta name="description" content="מציאת מבשלות בארץ ובעולם" />
+    <meta name="keywords" content="למצוא, מבשלות, בירה, איפה" />
+    <meta name="author" content="Orr,Tom,Valeria" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+    <!--Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Heebo:100,400,800&amp;subset=hebrew" rel="stylesheet">
+
+    <!--favicon-->
+    <link rel="shortcut icon" type="image/png" href="pictures/KSHUTsmalllogo.png" />
+
+    <!-- CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="styles/myStyle.css" rel="stylesheet" />
+
+    <!-- Scripts -->
+
+    <script src="jScripts/jquery-1.12.0.min.js"></script>
+    <script src="jScripts/JavaScript.js" type="text/javascript">  </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div class="top-img" id="brewery-img">
+        <div id="container">
+            <header>
+                <a href="homepage.html" class="logo-link">
+                    <img id="logo" src="pictures/KSHUTmidLogo.svg" height="30" alt="לוגו האתר - כשות, כל מה שקשור לבירה" />
+                </a>
+                <ul id="skip">
+                    <li><a onclick="animateToContent('');" href="javascript:void(0);">דלג לתוכן המרכזי</a></li>
+                </ul>
+
+                <nav class="navbar">
+                    <ul class="nav navbar-nav">
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                ללמוד בירה
+                                <span class="caret"></span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li class="disabled"><a href="#" onclick="return false" tabindex="-1">ללמוד מרכיבים</a></li>
+                                <li class="disabled"><a href="#" onclick="return false" tabindex="-1">ללמוד סוגים</a></li>
+                                <li><a href="learnglass.html">ללמוד כוסות</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                להכין בירה
+                                <span class="caret"></span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li class="disabled"><a href="#" onclick="return false" tabindex="-1">להכין כלים</a></li>
+                                <li class="disabled"><a href="#" onclick="return false" tabindex="-1">להכין מתכונים</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                <span class="menu-selected">למצוא בירה</span>
+                                <span class="caret"></span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="findbrewery.html"><span class="menu-selected">למצוא מבשלות</span></a></li>
+                                <li><a href="findforme.html">למצוא עבורי</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                לשפר בירה
+                                <span class="caret"></span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="nishnush.html">לשפר נשנוש</a></li>
+                                <li class="disabled"><a href="#" onclick="return false" tabindex="-1"> לשפר קוקטייל</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+
+            <div class="welcome-message">
+                <img src="pictures/search_white.svg" height="50" /><br /><br />
+                <h1>למצוא מבשלות</h1><br />
+                <h1><span class="thin">איפה המבשלות שהכי כדאי לבקר בהן?</span></h1>
+                <a onclick="animateToContent();" class="always-bottom"><span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></a>
+            </div>
+        </div>
+    </div>
+    <div id="jumper" class="container-fluid"  tabindex="0">
+        <div class="row">
+            <div class="col-sm-6" style="background-color:#fff;">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3368.664772779731!2d34.899643184373225!3d32.401346781087135!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151d137aef1b7e9b%3A0x6285acff5f56cc55!2z157Xkdep15zXqiDXkNec15vXodeg15PXqA!5e0!3m2!1siw!2sil!4v1498762083305"
+                        height="500" frameborder="0" style="border:0; width: 100%" allowfullscreen></iframe>
+            </div>
+            <div class="col-sm-6" style="background-color:#242424;">
+                <section class="half-sqr">
+                    
+                    <div><img src="pictures/flags/IL.svg" height="20" class="pull-right" /><h2>אלכסנדר</h2> </div>
+                    <p>
+                        מבשלת אלכסנדר הוקמה בשנת 2008 בפארק תעשיות עמק חפר ליד נחל אלכסנדר. יוזם המבשלה הוא אורי שגיא, בעברו מפקד טייסת אפאצ'י בחיל האוויר. לאחר בישול בירה בביתו החליט להפוך את התחביב למקצוע. הוא חבר לאביאם סלע, ארי ויורם ירזין, מבכירי המסעדנים בארץ, ובשנת 2010 הקימו את המבשלה.
+                        המבשלה קרויה על שם נחל אלכסנדר, העובר בעמק חפר, מקום מושבה של המבשלה. הצבים הגדלים בנחל נמצאים בלוגו המבשלה.
+                    </p>
+                    <h3>מיקום</h3>
+                    <p>
+                        מרכז מסחרי עמק חפר (ליד חדרה) , מערב השרון
+
+                    </p>
+                    <div class="center">
+                        <a class="my-btn white" href="http://alexander-beer.co.il/?page_id=19" target="_blank">תאם סיור</a>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-6" style="background-color:#fff;">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3346.6192046347032!2d35.70971568436124!3d32.987446980908935!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151c1d9916d01bdf%3A0x8ecd5ab0aeb6ab66!2z15HXqNeV15TXkNeV16Eg15TXkteV15zXnw!5e0!3m2!1siw!2sil!4v1498762639953"
+                        height="500" frameborder="0" style="border:0; width: 100%" allowfullscreen></iframe>
+            </div>
+            <div class="col-sm-6" style="background-color:#444;">
+                <section class="half-sqr">
+                    <div><img src="pictures/flags/IL.svg" height="20" class="pull-right" /><h2>בזלת</h2> </div>
+                    <p>
+                        לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית נולום ארווס סאפיאן - פוסיליס קוויס, אקווזמן קוואזי במר מודוף. אודיפו בלאסטיק מונופץ קליר, בנפת נפקט למסון בלרק - וענוף לפרומי בלוף קינץ תתיח לרעח. לת צשחמי צש בליא, מנסוטו צמלח לביקו ננבי, צמוקו בלוקריה שיצמה ברורק.
+                    </p>
+                    <h3>מיקום</h3>
+                    <p>
+                        אזור תעשייה חוצות הגולן, קצרין
+
+                    </p>
+                    <div class="center">
+                        <a class="my-btn white" href="http://www.beergolan.co.il/Contact.php" target="_blank">תאם סיור</a>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-6" style="background-color:#fff;">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6796.319024450675!2d34.78320682449958!3d31.602088667078476!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x150293d9fd1d8a5f%3A0x62a43a1bc722d828!2z157Xkdep15zXqiDXkdeZ16jXkdeW15DXqA!5e0!3m2!1siw!2sil!4v1498763288261"
+                        height="500" frameborder="0" style="border:0; width: 100%" allowfullscreen></iframe>
+            </div>
+            <div class="col-sm-6" style="background-color:#242424;">
+                <section class="half-sqr">
+                    <div><img src="pictures/flags/IL.svg" height="20" class="pull-right" /><h2>נגב</h2></div>
+                    <p>
+                        מבשלת הנגב בע"מ היא מבשלת בירה בוטיק ישראלית. המבשלה החלה את דרכה עם שלושה סוגי בירות: נגב אמבר אייל, נגב פסיפלורה ונגב פורטר אלון. בשנת 2011 נרכשה המבשלה על ידי חברת נורמן פרמיום וכיום נמצאת בבעלותה. כיום מנהל את המבשלה שגיב קרלבוים והבשלן הראשי הוא תומר רונן. מבשלת הנגב זכתה בשנת 2013 בתואר המבשלה הטובה בישראל באתר Rate Beer.
+                    </p>
+                    <h3>מיקום</h3>
+                    <p>
+                        אזור תעשייה, קריית גת
+
+                    </p>
+                    <div class="center">
+                        <a class="my-btn white" href="https://negevbrewery.wordpress.com/%D7%9E%D7%A8%D7%9B%D7%96-%D7%9E%D7%91%D7%A7%D7%A8%D7%99%D7%9D/" target="_blank">תאם סיור</a>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-6" style="background-color:#fff;">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3373.395648995783!2d34.859596684375695!3d32.27433908112673!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151d409c73b38813%3A0x13c7eb368662c045!2z15jXntek15Ug157Xqden15DXldeqINeR16Ii154!5e0!3m2!1siw!2sil!4v1498763488829"
+                        height="500" frameborder="0" style="border:0; width: 100%" allowfullscreen></iframe>
+            </div>
+            <div class="col-sm-6" style="background-color:#444;">
+                <section class="half-sqr">
+                    <div><img src="pictures/flags/IL.svg" height="20" class="pull-right" /><h2>גולדסטאר</h2></div>
+                    <p>
+
+                        גולדסטאר בושלה לראשונה בשנת 1950 על ידי הברומייסטר מנחם ברלינר ממבשלת "תעשיות בירה ארץ ישראל בע"מ". הבירה כיוונה בתחילת דרכה לקהל חדש: חיילי צה"ל וצעירים. גולדסטאר נמכרה במחיר מוזל בקנטינות השקם, וזכתה להצלחה גדולה.
+                        בתחילה שווקה גולדסטאר כתת-מותג של הבירה המובילה של החברה, בירה נשר, ונקראה "נשר גולדסטאר".
+                        כמו כן, גולדסטאר הייתה הבירה הישראלית הראשונה שנמכרה מן החבית.
+                    </p>
+                    <h3>מיקום</h3>
+                    <p>
+                        אזור תעשייה פולג (צמוד לאיקאה) , נתניה
+
+                    </p>
+                    <div class="center">
+                        <a class="my-btn white" href="http://www.tempo.co.il/%D7%90%D7%95%D7%93%D7%95%D7%AA-%D7%A8%D7%90%D7%A9%D7%99/%D7%9E%D7%A8%D7%9B%D7%96-%D7%94%D7%9E%D7%91%D7%A7%D7%A8%D7%99%D7%9D/" target="_blank">תאם סיור</a>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-6" style="background-color:#fff;">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3346.3448252297117!2d35.222001784361076!3d32.99468328090681!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151c32add8f06bed%3A0x9bd886aff837cd6d!2z157Xkdep15zXqiDXntec15vXlA!5e0!3m2!1siw!2sil!4v1498763674345"
+                        height="500" frameborder="0" style="border:0; width: 100%" allowfullscreen></iframe>
+            </div>
+            <div class="col-sm-6" style="background-color:#242424;">
+                <section class="half-sqr">
+                    <div><img src="pictures/flags/IL.svg" height="20" class="pull-right" /><h2>מלכה</h2></div>
+                    <p>
+                        מיוצרת מאז שנת 2006 על ידי חברת בירה מלכה בע"מ, במבשלה ביחיעם. המים המשמשים לייצור הבירה נשאבים ברובם ממעיינות הגעתון הסמוכים. מנכ"ל החברה ומייסד המבשלה הוא אסף לביא, תושב כליל בגליל המערבי.
+                        בירה מלכה נמנית עם שתי מבשלות בירות הבוטיק הראשונות בישראל, והיא נחשבת גם אחד ממותגי בירת הבוטיק הבולטים בשוק.
+                    </p>
+                    <h3>מיקום</h3>
+                    <p>
+                        קיבוץ יחיעם , הגליל המערבי
+
+                    </p>
+                    <div class="center">
+                        <a class="my-btn white" href="http://malkabeer.co.il/visits/%D7%91%D7%99%D7%A7%D7%95%D7%A8-%D7%91%D7%9E%D7%91%D7%A9%D7%9C%D7%94/" target="_blank">תאם סיור</a>
+                    </div>
+                </section>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6" style="background-color:#fff;">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3397.0094009606137!2d34.550070684388544!3d31.63359298133236!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x15029c5141685a15%3A0x606f60045954ed4e!2z16fXqNec16HXkdeo15I!5e0!3m2!1siw!2sil!4v1498763885802"
+                        height="500" frameborder="0" style="border:0; width: 100%" allowfullscreen></iframe>
+            </div>
+            <div class="col-sm-6" style="background-color:#444;">
+                <section class="half-sqr">
+                    <div><img src="pictures/flags/IL.svg" height="20" class="pull-right" /><h2>קרלסברג - ישראל</h2></div>
+                    <p>
+                        הבירה בארץ מיוצרת עם אותם חומרי גלם איכותיים המשמשים לייצור הבירה בדנמרק ובמבשלות קרלסברג אחרות ברחבי העולם. חומרי הגלם מיובאים לישראל רק ממקורות מאושרים קרלסברג הבינלאומית.
+                        במבשלת הבירה בארץ הוקם מערך אבטחת איכות ייחודי הכולל צוות טעימות מיומן שפועל באופן קבוע ועורך מבחני טעימה לבירה המיוצרת.
+                    </p>
+                    <h3>מיקום</h3>
+                    <p>
+                        איזור התעשייה הדרומי , אשקלון
+
+                    </p>
+                    <div class="center">
+                        <a class="my-btn white" href="http://www.carlsberg.co.il/%D7%A7%D7%A8%D7%9C%D7%A1%D7%91%D7%A8%D7%92-%D7%99%D7%A9%D7%A8%D7%90%D7%9C/%D7%9E%D7%A8%D7%9B%D7%96-%D7%9E%D7%91%D7%A7%D7%A8%D7%99%D7%9D-%D7%A7%D7%A8%D7%9C%D7%A1%D7%91%D7%A8%D7%92-%D7%90%D7%A9%D7%A7%D7%9C%D7%95%D7%9F/" target="_blank">תאם סיור</a>
+                    </div>
+
+                </section>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6" style="background-color:#fff;">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2396.837485768133!2d8.792247226253176!3d53.07719262932966!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa52a27c1e4f09e39!2sBeck&#39;s+Brauerei!5e0!3m2!1siw!2sil!4v1498764520946"
+                        height="500" frameborder="0" style="border:0; width: 100%" allowfullscreen></iframe>
+            </div>
+            <div class="col-sm-6" style="background-color:#242424;">
+                <section class="half-sqr">
+                    <div><img src="pictures/flags/DE.svg" height="20" class="pull-right" /><h2>בקס - BECK'S</h2></div>
+                    <p>
+                        בירה בהירה ומרעננת, עם טעמים טיפה מרירים. הוקמה ב1873 ע"י שלושה שותפים,ביניהם היינריך בקס. המים הינם מים מקרחון מתקופת הקרח! המפתח על הבקבוק הוא מפתח העיר ברמן (שם ממוקמת המבשלה), כאות הערכה על איכות הבירה! הבירה הגרמנית המיוצאת ביותר בעולם.                    </p>
+                    <h3>מיקום</h3>
+                    <p>
+                        Am Deich 18/19, 28199 Bremen, Deutschland
+                    </p>
+                    <div class="center">
+                        <a class="my-btn white" href="https://becks.de/visitors-centre" target="_blank">תאם סיור</a>
+                    </div>
+                </section>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6" style="background-color:#fff;">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2382.077214598748!2d-6.284520616159473!3d53.34187397997808!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48670e8440c5056b%3A0xb31933927505e7a2!2sGuinness+Storehouse!5e0!3m2!1siw!2sil!4v1498764594206"
+                        height="500" frameborder="0" style="border:0; width: 100%" allowfullscreen></iframe>
+            </div>
+            <div class="col-sm-6" style="background-color:#444;">
+                <section class="half-sqr">
+                    <div><img src="pictures/flags/IE.svg" height="20" class="pull-right" /><h2>גינס - GUINNESS</h2></div>
+                    <p>
+                        המבשלת הוקמה בשנת 1754 ע"י ארתור גינס, שחלם על בירה קצת שונה-בירה כהה. המתכון- אותו מתכון בדיוק, כבר מעל 250 שנה...
+                        מדיי יום נמזגות למעלה מ-10 מליון (!!) כוסות גינס. ובתכלס-מי לא מכיר אותה?
+                    </p>
+                    <h3>מיקום</h3>
+                    <p>
+                        St. James Gate, Dublin, Ireland
+
+                    </p>
+                    <div class="center">
+                        <a class="my-btn white" href="https://www.getyourguide.com/dublin-l31/guinness-storehouse-self-guided-tour-with-free-pint-t45105/?partner_id=HTVNPU0" target="_blank">תאם סיור</a>
+                    </div>
+
+                </section>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6" style="background-color:#fff;">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2508.562163445301!2d4.328615083908801!3d51.0427068795614!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3ec24aa952ed7%3A0xedba2ec37bcd2c2a!2sDuvel+Moortgat+Brewery!5e0!3m2!1siw!2sil!4v1498764849496"
+                        height="500" frameborder="0" style="border:0; width: 100%" allowfullscreen></iframe>
+            </div>
+            <div class="col-sm-6" style="background-color:#242424;">
+                <section class="half-sqr">
+                    <div><img src="pictures/flags/BE.svg" height="20" class="pull-right" /><h2>דובל - DUVEL</h2></div>
+                    <p>
+                        דובל - (שטן - לקוח מן השפה הפלמית, אחת השפות הרשמיות בבלגיה) הבירה עוברת תסיסה נוספת בבקבוק, בדומה לשמפניה. לאחר שאחד מחברי המשפחה טעם את הבירה, הוא צעק בהתרגשות "איזו בירה שטנית!" ומכאן שמה נחשבת לאחת הבירות הבלגיות הטובות ביותר, אם לא הטובה מכולן. 
+                    </p>
+                    <h3>מיקום</h3>
+                    <p>
+                        Breendonk-Dorp 58, 2870 Puurs, Belgium
+
+                    </p>
+                    <div class="center">
+                        <a class="my-btn white" href="http://www.duvel.com/en-us/visit-duvel" target="_blank">תאם סיור</a>
+                    </div>
+                </section>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6" style="background-color:#fff;">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5046.046392985092!2d4.897637970552414!3d50.775143568085845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c16e7b2ff4f81b%3A0x9ebe8774da391f4a!2sInBev+Belgium+nv!5e0!3m2!1siw!2sil!4v1498764933835"
+                        height="500" frameborder="0" style="border:0; width: 100%" allowfullscreen></iframe>
+            </div>
+            <div class="col-sm-6" style="background-color:#444;">
+                <section class="half-sqr">
+                    <div><img src="pictures/flags/BE.svg" height="20" class="pull-right" /><h2>הוגרדן - HOEGAARDEN</h2></div>
+                    <p>
+                         הוקמה בשנת 1445 ע"י קבוצת נזירים שגילו מתכון לבירה "לבנה". המבשלה פעלה במשך למעלה מ-500 שנה, אך נסגרה בשנת 1957. תשע שנים אחרי, פייר סליס, חלבן מקומי, התגעגע מאוד לטעם האהוב והחליט לפתוח את המבשלה מחדש, ובעזרת ציוד ישן פתח מבשלה חדשה. המבשלה הצליחה מאוד ואף הכפילה את מכירתה, אך נשרפה ונסגרה. פייר לא ויתר ופתח את המבשלה מחדש.
+                    </p>
+                    <h3>מיקום</h3>
+                    <p>
+                        Stoopkensstraat 46, 3320 Hoegaarden, Belgium
+
+                    </p>
+                    <div class="center">
+                        <a class="my-btn white" href="http://www.breweryvisits.com/en/hoegaarden" target="_blank">תאם סיור</a>
+                    </div>
+                </section>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6" style="background-color:#fff;">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2436.694203285247!2d4.894013583869967!3d52.357831279783944!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c609ed3c25194b%3A0x4fd3caab9141ac0a!2sHeineken+Experience!5e0!3m2!1siw!2sil!4v1498765113661"
+                        height="500" frameborder="0" style="border:0; width: 100%" allowfullscreen></iframe>
+            </div>
+            <div class="col-sm-6" style="background-color:#242424;">
+                <section class="half-sqr">
+                    <div><img src="pictures/flags/NL.svg" height="20" class="pull-right" /><h2>הייניקן - HEINEKEN</h2></div>
+                    <p>
+                        בשנת 1863 קנה ג'רארד הייניקן את המבשלה הגדולה באמסטרדם - והפך אותה למבשלה הרביעית בגדולה בעולם במחירות! הייניקן נמכרת בהולנד בבקבוק חום, בשונה משאר העולם שם הבקבוק נמכר בצבע ירוק. כל גבר שאוהב כדורגל-יכיר את הייניקן, אחת מנותנות החסות הראשיות לליגת האלופות (אליפות אירופה למועדונים בכדורגל).                    </p>
+                    <h3>מיקום</h3>
+                    <p>
+                        Stadhouderskade 78, 1072, Amsterdam, Netherlands
+
+                    </p>
+                    <div class="center">
+                        <a class="my-btn white" href="https://tickets.heinekenexperience.com/" target="_blank">תאם סיור</a>
+                    </div>
+                </section>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6" style="background-color:#fff;">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2649.1903123396737!2d11.731121283984736!3d48.395288279244845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479e6b195e0e5f49%3A0xdab97f05c84e152!2sBavarian+State+Brewery+Weihenstephan!5e0!3m2!1siw!2sil!4v1498765154640"
+                        height="500" frameborder="0" style="border:0; width: 100%" allowfullscreen></iframe>
+            </div>
+            <div class="col-sm-6" style="background-color:#444;">
+                <section class="half-sqr">
+                    <div><img src="pictures/flags/DE.svg" height="20" class="pull-right" /><h2>ווינשטפן - WEIHENSTEPHAN</h2></div>
+                    <p>
+                        ווינשטפן הינה המבשלה העתיקה ביותר בעולם, היא הוקמה בשנת 1040! הבירה נוסדה במנזר ע"י קבוצת נזירים (בעלי טעם טוב אפשר לומר..) שהתמחו בבירת בישול.
+                        כרטיס למינכן ב2040 כבר קניתם?
+                    </p>
+                    <h3>מיקום</h3>
+                    <p>
+                        Alte Akademie 2, 85354 Freising, Deutschland
+
+                    </p>
+                    <div class="center">
+                        <a class="my-btn white" href="https://www.weihenstephaner.de/en/our-brewery/brewery-tour/" target="_blank">תאם סיור</a>
+                    </div>
+                </section>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6" style="background-color:#fff;">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2519.191193225512!2d3.6185681839145265!3d50.84614367953184!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c30e27277dd575%3A0xb2a4fe56f9a46406!2sBrewery+Liefmans!5e0!3m2!1siw!2sil!4v1498765194610"
+                        height="500" frameborder="0" style="border:0; width: 100%" allowfullscreen></iframe>
+            </div>
+            <div class="col-sm-6" style="background-color:#242424;">
+                <section class="half-sqr">
+                    <div><img src="pictures/flags/BE.svg" height="20" class="pull-right" /><h2>ליפמנס - LIEFMANS</h2></div>
+                    <p>
+                        בירה המבוססת על חמישה סוגים של פירות אדומים: תות, אוכמניות, דובדבנים, פטל וסמבוק. מתיישנת כ-18 חודשים בחביות במבשלה. בעלת צבע אדמדם, ניחוח מרענן ופירותי, טעם מתוק המאוזן בסיומת חמצמצה ומעודנת.                     </p>
+                    <h3>מיקום</h3>
+                    <p>
+                        Aalststraat 200, 9700 Oudenaarde, Belgium
+                    </p>
+                    <div class="center">
+                        <a class="my-btn white" href="http://www.liefmans.be/en/brewery/brewery-visits" target="_blank">תאם סיור</a>
+                    </div>
+                </section>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6" style="background-color:#fff;">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10202.229407836901!2d4.918048603136667!3d50.262851063592656!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c1bffcc13735c7%3A0x685761b4f2e9b2e2!2sMaison+Leffe!5e0!3m2!1siw!2sil!4v1498765365939"
+                        height="500" frameborder="0" style="border:0; width: 100%" allowfullscreen></iframe>
+            </div>
+            <div class="col-sm-6" style="background-color:#444;">
+                <section class="half-sqr">
+                    <div><img src="pictures/flags/BE.svg" height="20" class="pull-right" /><h2 class="belgium">לף - LEFFE</h2></div>
+                    <p>
+                        מנזר נוטרדאם דה לף נבנה בשנת 1152 על גדת נהר המז, הזורם לאורכו של מחוז נאמור בדרום-מזרח בלגיה. בדומה למנזרים רבים ברחבי אירופה, ייצר המנזר סוגי שיכר למחייתו. בחלוף השנים פיתח המנזר שיטת הכנת שיכר ייחודית שעברה מדור לדור. את רכיבי המשקאות ליקטו הנזירים משטחי הבר הסובבים את המנזר. כאשר תהליך הזיקוק או הבישול נעשה במרתפי המנזר בלבד.
+                    </p>
+                    <h3>מיקום</h3>
+                    <p>
+                        Maison Leffe 23, Charreau des Capucins, Belgium
+                    </p>
+                    <div class="center">
+                        <a class="my-btn white" href="http://www.leffe.com/en/maison-leffe" target="_blank">תאם סיור</a>
+                    </div>
+                </section>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6" style="background-color:#fff;">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2950.311916216081!2d-71.10103981585277!3d42.31454547919009!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e3797b7da31c79%3A0x608b218b28d63376!2sSamuel+Adams!5e0!3m2!1siw!2sil!4v1498765403762"
+                        height="500" frameborder="0" style="border:0; width: 100%" allowfullscreen></iframe>
+            </div>
+            <div class="col-sm-6" style="background-color:#242424;">
+                <section class="half-sqr">
+                    <div><img src="pictures/flags/US.svg" height="20" class="pull-right" /><h2>סמואל אדמס - SAMUEL ADAMS</h2></div>
+                    <p>
+                        מבשלת בירה צעירה (הוקמה בשנת 1984) אך מהפכנית! הובילה את מהפכת בירות הבוטיק בארצות הברית, וזכתה תוך 6 שבועות בלבד לתואר המחמיא 'הבירה הטובה ביותר באמריקה'! החלום האמריקאי בהתגלמותו...
+                    </p>
+                    <h3>מיקום</h3>
+                    <p>
+                        Germania St, MA 02130, Boston, USA
+                    </p>
+                    <div class="center">
+                        <a class="my-btn white" href="https://www.samueladams.com/brewery-and-craft/brewery-tours" target="_blank">תאם סיור</a>
+                    </div>
+                </section>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6" style="background-color:#fff;">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2250.406044674128!2d12.532463683769388!3d55.66453898052972!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465253900a2896a7%3A0x819ff944fcae157c!2sVisit+Carlsberg!5e0!3m2!1siw!2sil!4v1498765566869"
+                        height="500" frameborder="0" style="border:0; width: 100%" allowfullscreen></iframe>
+            </div>
+            <div class="col-sm-6" style="background-color:#444;">
+                <section class="half-sqr">
+                    <div><img src="pictures/flags/DK.svg" height="20" class="pull-right" /><h2>קרלסברג - CARLSBERG</h2></div>
+                    <p>
+                        המבשלה הראשית של קרלסברג נמצאת בקופנהגן, ומבשלות נוספות פזורות ברחבי העולם. מרבית הבירה המיוצרת על ידי קרלסברג היא בירת לאגר בהירה, מטיפוס פילזנר. חברת קרלסברג נוסדה בקופנהגן על ידי יאקוב כריסטיאן יאקובסן בשנת 1847. ב-1875 הוקמה בסמוך למבשלה זו מעבדת מחקר, ובה בודד ב-1883 השמר שמשמש עד היום לייצור בירת לאגר. שמו של השמר הוא Saccharomyces carlsbergensis, על שם החברה.
+                    
+                    </p>
+                    <h3>מיקום</h3>
+                    <p>
+                        Gamle Carlsberg Vej 11, 1799 Valby, Denmark
+                    </p>
+                    <div class="center">
+                        <a class="my-btn white" href="http://www.thirstforgreat.com/visit-carlsberg.html" target="_blank">תאם סיור</a>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="#" data-toggle="modal" data-target="#myModal">צור קשר</a></li>
+                <li><a href="sitemap.html">מפת אתר</a></li>
+                <li><a href="aboutus.html">אודות</a></li>
+            </ul>
+        </nav>
+
+        <p>
+            כְּשׁוּת ©  2017<br />
+            כל מה שקשור לבירה
+        </p>
+    </footer>
+
+    <!--back-to-top-->
+    <a id="back-to-top" onclick="topFunction();" href="javascript:void(0);">
+        <i class="glyphicon glyphicon-menu-up" aria-hidden="true"></i>
+    </a>
+
+    <!--contact-popup-->
+    <div class="modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <a class="close" data-dismiss="modal">&times;</a>
+                    <h1 class="modal-title">צור קשר</h1>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        בא לכם להציע לנו הצעה שלא נוכל לסרב לה?<br />
+                        או אולי לספר לנו על משהו שחסר והייתם רוצים שנכתוב עליו?<br />
+                        או שסתם בא לכם לשאול שאלה ולספר לנו על הבירה האהובה עליכם?<br />
+                        בכל מקרה אנחנו פה כדי לשמוע!
+                    </p>
+                    <form class="myForm">
+                        <input type="hidden" id="myEmail" name="name" value="benzix2@gmail.com">
+
+
+                        <div class="col-md-6">
+                            <label for="userMsg">תוכן ההודעה<span class="required">*</span></label>
+                            <textarea name="field5" id="userMsg" class="field-long field-textarea" placeholder="שלום צוות כשות..."></textarea>
+                        </div>
+
+                        <div class="col-md-6">
+                            <label for="fname">שם מלא <span class="required">*</span></label>
+                            <input type="text" id="fname" name="field1" class="field-long" placeholder="שם מלא" />
+
+                            <label for="userEmail">אימייל <span class="required">*</span></label>
+                            <input type="text" id="userEmail" name="field3" class="field-long" placeholder="אימייל" />
+
+                            <label for="userCompany">בירה אהובה</label>
+                            <input type="text" id="userCompany" name="field4" class="field-select" placeholder="בירה אהובה">
+                        </div>
+
+                        <div class="col-md-12">
+                            <input type="submit" value="שלח" />
+                        </div>
+
+                        <div id="feedback"></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

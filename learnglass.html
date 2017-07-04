@@ -1,0 +1,340 @@
+﻿<!doctype html>
+<html lang="he">
+<head>
+    <meta charset="utf-8" />
+    <title>כשות - ללמוד כוסות</title>
+    <meta name="description" content="ללמוד על סוגי הכוסות השונים והתאמתם לבירות השונות" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="Orr,Tom,Valeria" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+    <!--Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Heebo:100,400,800&amp;subset=hebrew" rel="stylesheet">
+
+    <!--favicon-->
+    <link rel="shortcut icon" type="image/png" href="pictures/KSHUTsmalllogo.png" />
+
+    <!-- CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="styles/myStyle.css" rel="stylesheet" />
+
+    <!-- Scripts -->
+
+    <script src="jScripts/jquery-1.12.0.min.js"></script>
+    <script src="jScripts/JavaScript.js" type="text/javascript">  </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div class="top-img" id="glass-img">
+        <div id="container">
+            <header>
+                <a href="homepage.html" class="logo-link">
+                    <img id="logo" src="pictures/KSHUTmidLogo.svg" height="30" alt="לוגו האתר - כשות, כל מה שקשור לבירה" />
+                </a>
+                <ul id="skip">
+                    <li><a onclick="animateToContent('');" href="javascript:void(0);">דלג לתוכן המרכזי</a></li>
+                </ul>
+
+                <nav class="navbar">
+                    <ul class="nav navbar-nav">
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                <span class="menu-selected">ללמוד בירה</span>
+                                <span class="caret"></span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li class="disabled"><a href="#" onclick="return false" tabindex="-1">ללמוד מרכיבים</a></li>
+                                <li class="disabled"><a href="#" onclick="return false" tabindex="-1">ללמוד סוגים</a></li>
+                                <li><a href="learnglass.html"><span class="menu-selected">ללמוד כוסות</span></a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                להכין בירה
+                                <span class="caret"></span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li class="disabled"><a href="#" onclick="return false" tabindex="-1">להכין כלים</a></li>
+                                <li class="disabled"><a href="#" onclick="return false" tabindex="-1">להכין מתכונים</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                למצוא בירה
+                                <span class="caret"></span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="findbrewery.html">למצוא מבשלות</a></li>
+                                <li><a href="findforme.html">למצוא עבורי</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                לשפר בירה
+                                <span class="caret"></span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="nishnush.html">לשפר נשנוש</a></li>
+                                <li class="disabled"><a href="#" onclick="return false" tabindex="-1"> לשפר קוקטייל</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+
+            <div class="welcome-message">
+                <img src="pictures/wheat_white.svg" height="50" /><br /><br />
+                <h1>ללמוד כוסות</h1><br />
+                <h1><span class="thin">איזו כוס מתאימה לאיזו בירה?</span></h1>
+                <a onclick="animateToContent();" href="javascript:void(0);" class="always-bottom"><span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></a>
+            </div>
+        </div>
+    </div>
+    <div id="jumper" class="container-fluid" tabindex="0">
+        <div class="row">
+            <div class="col-sm-6" style="background-color:#fff;">
+                <figure class="cover" id="pint"></figure>
+            </div>
+            <div class="col-sm-6" style="background-color:#242424;">
+                <section class="half-sqr">
+
+                    <h2>"פיינט"</h2>
+
+                    <p>
+                        כוס הפיינט הינה הכוס השיגרתית והמוכרת ביותר מבין כל סוגי הכוסות.<br />  היא פשוטה, בעלת זכוכית עבה וקימור עדין.
+                    </p>
+                    <h3>גודל</h3>
+                    <p>
+                        המילה "פיינט" מייצגת קנה מדידה בארצות שונות, לדוגמא בבריטניה כוס פיינט מכילה כ568 מ"ל של בירה, בעוד בארה"ב כוס פיינט תכיל רק 473 מ"ל.
+                    </p>
+                    <h3>מיועדת עבור</h3>
+                    <p>
+                        בארץ נהוג להגיש כמעט כל בירה מהחבית בכוס זו, אך כוס זו נועדה בעיקר לבירות מסוג:
+                        <ul>
+                            <li>"אייל" חום</li>
+                            <li>"אייל בהיר"</li>
+                            <li>"אייל הודי (IPA)"</li>
+                            <li>"פורטר"</li>
+                            <li>"סטאוט"</li>
+                        </ul>
+                    </p>
+                </section>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-6" style="background-color:#fff;">
+                <figure class="cover" id="mag"></figure>
+            </div>
+            <div class="col-sm-6" style="background-color:#444;">
+                <section class="half-sqr">
+                    <h2>
+                        "מאג / קרוג"
+                    </h2>
+                    <p>
+                        כאשר אומרים לנו את צמד המילים האהוב "בירה מהחבית" אנחנו ישר חושבים על כוס המאג, כוס המאופיינת בגוף גס, מסיבי ועבה עם ידית חזקה ונועדה לכמויות גדולות של בירה, הידית מונעת מהבירה להתחמם ותורמת לחווית שתייה צוננת וקרירה.
+                    </p>
+
+                    <h3>גודל</h3>
+                    <p>
+                        כוס זו היא בעלת הסגנונות הרבים ביותר ועל כן ניתן להשיגה מגודל של295 מ"ל ועד לליטר (!!) שלם.
+                    </p>
+                    <h3>מיועדת עבור</h3>
+                    <p>
+                        כוס זו נועדה בעיקר להגשת בירות מהחבית ולכל סוגי הבירות האמריקאיות/אנגליות/גרמניות.
+                        <ul>
+                            <li>"אייל/לאגר" אמריקאי.</li>
+                            <li>"אייל" אנגלי</li>
+                            <li> "לאגר" גרמני</li>
+                            <li> "פילסנר"</li>
+                        </ul>
+                    </p>
+                </section>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-6" style="background-color:#fff;">
+                <figure class="cover" id="tulip"></figure>
+            </div>
+            <div class="col-sm-6" style="background-color:#242424;">
+                <section class="half-sqr">
+
+                    <h2>"טוליפ"</h2>
+                    <p>
+                        כוס הטוליפ (כשמו של פרח הטוליפ), הינה כוס מנופחת בעלת ראש מתסעף כלפי חוץ, עם "רגל" מנותקת מהגוף. צורתה לא רק שמסייעת ל"לכידת" הארומה אלא גם שומרת על צורת ראש הבירה הנמזגת ובכך מייצרת חוויה ויזואלית וריחנית.
+                    </p>
+                    <h3>גודל</h3>
+                    <p>
+                        כוס זו באה בגדלים רבים הנעים בין  295 מ"ל עד ל473 מ"ל.
+                    </p>
+                    <h3>מיועדת עבור:</h3>
+                    <p>
+                        כוס הטוליפ הולכת הכי טוב עם בירות אייל "אלגנטיות" כגון:
+                        <ul>
+                            <li>"אייל סקוטי"</li>
+                            <li>"אייל בלגי"</li>
+                            <li>"אייל הודי (IPA)"</li>
+                        </ul>
+                    </p>
+                </section>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-6" style="background-color:#fff;">
+                <figure class="cover" id="pilsner"></figure>
+            </div>
+            <div class="col-sm-6" style="background-color:#444;">
+                <section class="half-sqr">
+
+                    <h2>
+                        "פילסנר"
+                    </h2>
+                    <p>
+                        .כוס הפילסנר הינה כוס גבוהה ורזה ההולכת ונהיית צרה יותר לקראת התחתית, כוס זו נועדה לחשוף את הצבע ואת תהליך ה"הגזה" שעברה הבירה.
+                    </p>
+
+                    <h3>גודל</h3>
+                    <p>
+                        כוס זו קטנה יותר מכוס הפיינט והיא באה בדרך כלל בגדלים של 200/250/300/330 או 400 מ"ל.
+                        <h3>מיועדת עבור</h3>
+                    <p>
+                        כוס הפילסנר מיועדת עבור הבירות הבהירות יותר ולכן תתאים יותר לבירות מסוג:
+                        <ul>
+                            <li>"פילסנר" (איך לא?)</li>
+                            <li>"לאגר"</li>
+                            <li>"בוק"</li>
+                            <li>"בלונד אייל"</li>
+                        </ul>
+                    </p>
+                </section>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-6" style="background-color:#fff;">
+                <figure class="cover" id="weizen"></figure>
+            </div>
+            <div class="col-sm-6" style="background-color:#242424;">
+                <section class="half-sqr">
+                    <h2>
+                        "וויזן"
+                    </h2>
+                    <p>
+                        כוס הוויזן בעלת השם הגרמני הכבד, מקורה אכן בגרמניה, זוהי כוס כבדה, עבה וארוכה בעלת ראש עבה במקצת מהתחתית עם קימורים נאים. כוס זו שמה לדגש את קצף הבירה ומציגה אותו במלוא הדרותו.
+                    </p>
+                    <h3>גודל</h3>
+                    <p>
+                        כוס זו בדרך כלל גדולה מכוס הפיינט וגודלה עומד בעיקר על 500 מ"ל, אך ניתן למצוא וריאציות שונות של כוס זו בגדלים כמו 250 מ"ל או 330 מ"ל.
+                    </p>
+                    <h3>מיועדת עבור</h3>
+                    <p>
+                        כוס זו נועדה עבור בירה חיטה ובירות גרמניות שונות.
+                        <ul>
+                            <li>כל בירות החיטה</li>
+                        </ul>
+                    </p>
+                </section>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6" style="background-color:#fff;">
+                <figure class="cover" id="snifter"></figure>
+            </div>
+            <div class="col-sm-6" style="background-color:#444;">
+                <section class="half-sqr">
+                    <h2>
+                        "סניפטר"
+                    </h2>
+                    <p>
+                        כוס הסניפטר כשמה כן היא (המילה SNIFF באנגלית משמע "להריח") נועדה כדי לגרום לשותה להריח את המשקה לפני שהוא לוגם אותו, כוס זו היא כוס מנופחת, בעלת "רגל", כאשר ראשה קטן מגופה אך רחב דיו כדי לתת ללוגם לטמון את אפיו בארומת המשקה.
+                    </p>
+                    <h3>גודל</h3>
+                    <p>
+                        כוס זו באה בגדלים רבים המתחילים ב354 מ"ל ועד ל591 מ"ל.
+                    </p>
+                    <h3>מיועדת עבור</h3>
+                    <p>
+                        כוס זו נועדה בעיקר לשתיית משקאות ברנדי וקוניאק, אך יכולותה להעשיר את ארומת המשקה משחקת תפקיד משמעותי בבירה גם כן, והיא מתאימה לבירות חזקות במיוחד.
+                        <ul>
+                            <li>"אייל בלגי כפול"</li>
+                            <li>בוק</li>
+                            <li>סטאוט</li>
+                            <li>בירות בעלות נפח של מעל 7% אלכוהול</li>
+                        </ul>
+                    </p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="#" data-toggle="modal" data-target="#myModal">צור קשר</a></li>
+                <li><a href="sitemap.html">מפת אתר</a></li>
+                <li><a href="aboutus.html">אודות</a></li>
+            </ul>
+        </nav>
+
+        <p>
+            כְּשׁוּת ©  2017<br />
+            כל מה שקשור לבירה
+        </p>
+    </footer>
+
+    <!--back-to-top-->
+    <a id="back-to-top" onclick="topFunction();" href="javascript:void(0);">
+        <i class="glyphicon glyphicon-menu-up" aria-hidden="true"></i>
+    </a>
+
+    <!--contact-popup-->
+    <div class="modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <a class="close" data-dismiss="modal">&times;</a>
+                    <h1 class="modal-title">צור קשר</h1>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        בא לכם להציע לנו הצעה שלא נוכל לסרב לה?<br />
+                        או אולי לספר לנו על משהו שחסר והייתם רוצים שנכתוב עליו?<br />
+                        או שסתם בא לכם לשאול שאלה ולספר לנו על הבירה האהובה עליכם?<br />
+                        בכל מקרה אנחנו פה כדי לשמוע!
+                    </p>
+                    <form class="myForm">
+                        <input type="hidden" id="myEmail" name="name" value="benzix2@gmail.com">
+
+
+                        <div class="col-md-6">
+                            <label for="userMsg">תוכן ההודעה<span class="required">*</span></label>
+                            <textarea name="field5" id="userMsg" class="field-long field-textarea" placeholder="שלום צוות כשות..."></textarea>
+                        </div>
+
+                        <div class="col-md-6">
+                            <label for="fname">שם מלא <span class="required">*</span></label>
+                            <input type="text" id="fname" name="field1" class="field-long" placeholder="שם מלא" />
+
+                            <label for="userEmail">אימייל <span class="required">*</span></label>
+                            <input type="text" id="userEmail" name="field3" class="field-long" placeholder="אימייל" />
+
+                            <label for="userCompany">בירה אהובה</label>
+                            <input type="text" id="userCompany" name="field4" class="field-select" placeholder="בירה אהובה">
+                        </div>
+
+                        <div class="col-md-12">
+                            <input type="submit" value="שלח" />
+                        </div>
+
+                        <div id="feedback"></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
